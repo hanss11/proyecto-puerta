@@ -1,0 +1,59 @@
+@font-face {
+font-family: mark_my_words;
+src: url(../fonts/mark_my_words.otf);
+}
+@font-face {
+font-family: swissc;
+src: url(../fonts/swissc.ttf);
+}
+
+.carousel-inner .carousel-item img {
+  object-fit:  cover;
+  height: 70vh;
+  width: 100%;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+h5,h4{
+  color: #fff;
+}
+#institutional{
+  font-family: swissc;
+  font-weight: bold;
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 4rem;
+  left: 10%;
+  top: 20%;
+}
+#objectives{
+  font-family:mark_my_words;
+  z-index: 1;
+  position: relative;
+  color: white;
+  top:180px;
+  left:45%;
+
+}
+#pointobjectives{
+   justify-content:center;
+  position: relative;
+  top:250px;
+}
+#thebook{
+  font-family:mark_my_words;
+  position: relative;
+  color: white;
+  top:40vh;
+  left: 45%;
+}
+.buttonpuerta{
+justify-content:center;
+  position: relative;
+  top: 55vh;
+
+}
